@@ -38,12 +38,12 @@ Testing covered both **frontend (customer side)** and **admin panel** functional
 - **Deliverables:** Complete QA documentation cycle (Plan → Execution → Report)  
 ---
 
-### Author
+#### Author
 
-**Natalia Chernenkaya**  
-QA Tester | Manual & API Testing | Test Documentation  
-🔗 [LinkedIn](www.linkedin.com/in/natalia-chernenkaya)  
----
+Natalia Chernenkaya
+QATester| Manual & API Testing|Test Documentation
+[LinkedIn](www.linkedin.com/in/natalia-chernenkaya)  
+
 *This repository demonstrates a complete manual testing workflow — from analyzing requirements and writing test documentation to reporting verified defects.*
 
 ---
@@ -52,7 +52,8 @@ QA Tester | Manual & API Testing | Test Documentation
 
 Tento projekt obsahuje kompletní dokumentaci k **manuálnímu testování demo e-shopu** – ukázkové aplikace pro nákup elektroniky s administračním panelem.  
 Cílem testování bylo ověřit funkčnost obchodní části i administračního rozhraní, včetně validací formulářů, slev, exportu dat a synchronizace produktů.
-
+Natalia Chernenkaya
+QATester| Manual & API Testing|Test Documentation
 ### Rozsah testování
 - Uživatelská část: hlavní stránka, produktové karty, košík, objednávkový formulář, slevy  
 - Admin panel: přidávání, úprava a mazání produktů, validace polí, export do Excelu  
@@ -65,7 +66,7 @@ Cílem testování bylo ověřit funkčnost obchodní části i administračníh
 - **Bug Reports (CZ / EN)** – seznam chyb s popisem, kroky a očekávaným výsledkem  
 ---
 
-### Testovací prostředí
+#### Testovací prostředí
 Chrome v140 • Windows 11 • DevTools • Excel • Google Sheets  
 ---
 *Projekt byl vytvořen jako ukázka kompletního QA procesu – od analýzy požadavků po hlášení chyb a závěrečnou zprávu.*
