@@ -2,10 +2,8 @@
 
 Manual QA documentation for the **Demo E-Shop** – a sample online store with product catalog, shopping cart, checkout form, and admin panel.  
 The goal of testing was to verify correct implementation of functional and validation rules, discounts, and data synchronization between the shop and admin interface.
----
 
-### Project Scope
-
+## Project Scope
 Testing covered both **frontend (customer side)** and **admin panel** functionality:
 
 #### Customer Side
@@ -32,7 +30,6 @@ Testing covered both **frontend (customer side)** and **admin panel** functional
 | Tools | Google Sheets, Chrome DevTools, Excel |
 | Test data | Created manually based on task specification |
 ---
-
 ### Summary
 
 - **Approach:** Manual functional testing  
@@ -46,7 +43,6 @@ Testing covered both **frontend (customer side)** and **admin panel** functional
 **Natalia Chernenkaya**  
 QA Tester | Manual & API Testing | Test Documentation  
 🔗 [LinkedIn](www.linkedin.com/in/natalia-chernenkaya)  
-
 ---
 *This repository demonstrates a complete manual testing workflow — from analyzing requirements and writing test documentation to reporting verified defects.*
 
@@ -56,7 +52,6 @@ QA Tester | Manual & API Testing | Test Documentation
 
 Tento projekt obsahuje kompletní dokumentaci k **manuálnímu testování demo e-shopu** – ukázkové aplikace pro nákup elektroniky s administračním panelem.  
 Cílem testování bylo ověřit funkčnost obchodní části i administračního rozhraní, včetně validací formulářů, slev, exportu dat a synchronizace produktů.
----
 
 ### Rozsah testování
 - Uživatelská část: hlavní stránka, produktové karty, košík, objednávkový formulář, slevy  
