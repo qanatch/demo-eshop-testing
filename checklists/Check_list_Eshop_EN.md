@@ -264,4 +264,4 @@ It validates both functional and UI behavior from the customer perspective.
 
 🧪 **Environment:** Windows 11, Chrome 140  
 📅 **Test Date:** 15–18 September 2025  
-👩‍💻 **Tester:** Natalie Černěnkaya
+👩‍💻 **Tester:** Natalia Chernenkaya
