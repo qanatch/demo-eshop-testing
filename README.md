@@ -20,6 +20,12 @@ Testing covered both **frontend (customer side)** and **admin panel** functional
 - Excel export and data integrity check  
 - Integration between Admin and E-Shop  
 ---
+###  Dokuments
+- **Test Plan (CZ / EN)** 
+- **Checklists (Admin, E-Shop)** 
+- **Test cases Integrations**
+- **Bug Reports (CZ / EN)** 
+- **Test Report (CZ / EN)**
 
 ###  Test Environment
 
