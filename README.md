@@ -79,6 +79,18 @@ QA Tester | Manual & API Testing | Test Documentation
 *This repository demonstrates a structured, end-to-end approach to manual software testing — from requirement analysis and documentation to defect reporting.*
 
 ---
+### ⚠️ Disclaimer
+
+This repository is shared **for portfolio and educational purposes only**.  
+All documents, test cases, and reports are original work created by **Natalia Chernenkaya**.  
+Unauthorized copying, redistribution, or commercial use of this content is not permitted.  
+If you would like to reference this project or request access to additional materials,  
+please contact me directly via [LinkedIn](https://www.linkedin.com/in/natalia-chernenkaya).
+
+> 🇨🇿 Tento projekt je sdílen pouze pro účely portfolia a vzdělávání.  
+> Kopírování nebo další šíření obsahu bez souhlasu autora není povoleno.
+---
+
 
 ## 🇨🇿 Demo E-Shop – Testovací dokumentace
 
