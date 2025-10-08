@@ -62,8 +62,11 @@ QATester| Manual & API Testing|Test Documentation
 
 ###  Dokumentace
 - **Test Plan (CZ / EN)** – rozsah, strategie, rizika, harmonogram  
-- **Checklists (Admin, E-Shop)** – všechny otestované případy  
-- **Bug Reports (CZ / EN)** – seznam chyb s popisem, kroky a očekávaným výsledkem  
+- **Checklists (Admin, E-Shop)** – všechny otestované případy
+- **Test cases Integrations**
+- **Bug Reports (CZ / EN)** – seznam chyb s popisem, kroky a očekávaným výsledkem
+- **Test Report (CZ / EN)**
+
 ---
 
 #### Testovací prostředí
