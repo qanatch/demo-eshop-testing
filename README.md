@@ -4,35 +4,23 @@ Manual QA documentation for the **Demo E-Shop** – a sample online store with p
 The goal of testing was to verify correct implementation of functional and validation rules, discounts, and data synchronization between the shop and admin interface.
 ---
 
-## 🧭 Project Scope
+## Project Scope
 
 Testing covered both **frontend (customer side)** and **admin panel** functionality:
 
-### 🛍️ Customer Side
+### Customer Side
 - Product categories and product cards  
 - Cart operations and checkout process  
 - Validation of mandatory / optional fields  
 - Discounts, coupons, and payment methods  
 - Order confirmation page  
 
-### ⚙️ Admin Panel
+### Admin Panel
 - Adding, editing, and removing products  
 - Validation of required fields (Name, Category, Price, Stock, Image)  
 - Optional fields (Brand, Color, Description)  
 - Excel export and data integrity check  
 - Integration between Admin and E-Shop  
----
-
-## 📄 Documentation
-
-| Document | Language | Description |
-|-----------|-----------|-------------|
-| [Test Plan (EN)](Test_Plan/Test_Plan_EN.pdf) | English | Full QA plan — scope, strategy, risks, schedule |
-| [Test Plan (CZ)](Test_Plan/Test_Plan_CZ.pdf) | Czech | Original Czech version |
-| [Admin Panel Checklist (EN)](Checklists/Check_List_Admin_EN.md) | English | Functional and validation test cases for Admin |
-| [E-Shop Checklist (EN)](Checklists/Check_List_Eshop_EN.md) | English | Customer-side scenarios and UI tests |
-| [Bug Report (EN)](Bug_Report/Bug_Report_EN.md) | English | Reported issues with steps, expected/actual results, and screenshots |
-| [Bug Report (CZ)](Bug_Report/Bug_Report_CZ.pdf) | Czech | Original bug list (PDF export) |
 ---
 
 ##  Test Environment
@@ -54,15 +42,14 @@ Testing covered both **frontend (customer side)** and **admin panel** functional
 - **Deliverables:** Complete QA documentation cycle (Plan → Execution → Report)  
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Natalia Chernenkaya**  
 QA Tester | Manual & API Testing | Test Documentation  
 🔗 [LinkedIn](www.linkedin.com/in/natalia-chernenkaya)  
 
 ---
-
-✅ *This repository demonstrates a complete manual testing workflow — from analyzing requirements and writing test documentation to reporting verified defects.*
+ *This repository demonstrates a complete manual testing workflow — from analyzing requirements and writing test documentation to reporting verified defects.*
 
 ---
 
@@ -72,20 +59,19 @@ Tento projekt obsahuje kompletní dokumentaci k **manuálnímu testování demo 
 Cílem testování bylo ověřit funkčnost obchodní části i administračního rozhraní, včetně validací formulářů, slev, exportu dat a synchronizace produktů.
 ---
 
-## 🔍 Rozsah testování
+##  Rozsah testování
 - Uživatelská část: hlavní stránka, produktové karty, košík, objednávkový formulář, slevy  
 - Admin panel: přidávání, úprava a mazání produktů, validace polí, export do Excelu  
 - Integrační scénáře: propojení e-shopu s administrační částí  
 ---
 
-## 📂 Dokumentace
+##  Dokumentace
 - **Test Plan (CZ / EN)** – rozsah, strategie, rizika, harmonogram  
 - **Checklists (Admin, E-Shop)** – všechny otestované případy  
 - **Bug Reports (CZ / EN)** – seznam chyb s popisem, kroky a očekávaným výsledkem  
 ---
 
-## 🧩 Testovací prostředí
+##  Testovací prostředí
 Chrome v140 • Windows 11 • DevTools • Excel • Google Sheets  
 ---
-
-📘 *Projekt byl vytvořen jako ukázka kompletního QA procesu – od analýzy požadavků po hlášení chyb a závěrečnou zprávu.*
+ *Projekt byl vytvořen jako ukázka kompletního QA procesu – od analýzy požadavků po hlášení chyb a závěrečnou zprávu.*
