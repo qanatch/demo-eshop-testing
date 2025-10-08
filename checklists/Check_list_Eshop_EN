@@ -4,11 +4,10 @@ This checklist covers the **frontend (shop) functionality** of the Demo E-Shop:
 main page, product cards, cart, order form, and discount logic.  
 It validates both functional and UI behavior from the customer perspective.
 
----
 
-##  Homepage
+## Homepage ##
 
-### **1.Page Load**
+## 1.Page Load
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -22,7 +21,7 @@ It validates both functional and UI behavior from the customer perspective.
 
 ---
 
-### **2.Categories / Sidebar**
+## 2.Categories / Sidebar
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -34,7 +33,7 @@ It validates both functional and UI behavior from the customer perspective.
 
 ---
 
-### **3.Filter / Dropdown**
+## 3.Filter / Dropdown
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -50,9 +49,9 @@ It validates both functional and UI behavior from the customer perspective.
 
 ---
 
-##  Product Card
+##  Product Card ##
 
-### **1.Product Detail**
+## 1.Product Detail
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -64,28 +63,22 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-033 | “Add to Cart” button is available | ✅ Passed | Functional |
 | ES-034 | Spelling and grammar check of the text | ❌ Failed | UI |
 
----
-
-### **2.Button: Add to Cart**
+## 2.Button: Add to Cart
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
 | ES-035 | Product is added to cart | ✅ Passed | Functional |
 | ES-036 | Repeated product addition to cart | ✅ Passed | Functional |
 
----
-
-### **3.Quantity Selector**
+## 3.Quantity Selector
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
 | ES-037 | Functionality of “+ / –” buttons | ✅ Passed | Functional |
 | ES-038 | Selected quantity is added to cart | ✅ Passed | Functional |
 
----
-
-##  Cart
-### **1.General**
+## Cart ##
+## 1.General
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -99,9 +92,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-046 | Correct calculation of the total amount (Total) | ✅ Passed | Functional |
 | ES-047 | Clearing the entire cart using the “Clear” button | ✅ Passed | Functional |
 
----
-
-### **2.Quantity Selector**
+## 2.Quantity Selector
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -109,11 +100,8 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-049 | Decreasing quantity using the “–” button | ✅ Passed | Functional |
 | ES-050 | Quantity limit according to “Stock” value | ✅ Passed | Functional |
 
----
-
-##  Checkout
-
-### **1.General**
+## Checkout ##
+## 1.General
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -132,9 +120,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-063 | Error message disappears after entering valid values | ✅ Passed | Functional |
 | ES-064 | Order Summary displays all entered data, applied discounts, and the final price | ✅ Passed | Functional |
 
----
-
-### **2.Field: Name**
+## 2.Field: Name
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -144,9 +130,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-068 | Boundary value Name = 30 characters is accepted | ✅ Passed | Functional |
 | ES-069 | Enter 31 characters → error message, Pay button inactive | ✅ Passed | Functional |
 
----
-
-### **3.Field:Last Name**
+## 3.Field:Last Name
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -156,9 +140,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-073 | Boundary value Last Name = 30 characters is accepted | ✅ Passed | Functional |
 | ES-074 | Enter 31 characters → error message, Pay button inactive | ❌ Failed | Functional |
 
----
-
-### **4.Field:Street**
+### 4.Field:Street
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -167,9 +149,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-077 | Empty Street field → Pay button inactive | ✅ Passed | Functional |
 | ES-078 | Enter 31 characters → error message, Pay button inactive | ✅ Passed | Functional |
 
----
-
-### **5.Field:ZIP Code**
+## 5.Field:ZIP Code
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -179,9 +159,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-082 | Empty ZIP Code field → error message, Pay button inactive | ✅ Passed | Functional |
 | ES-083 | Invalid input (letters, symbols) → error message, Pay button inactive | ❌ Failed | Functional |
 
----
-
-### **6.Field: Date of Birth**
+## 6.Field: Date of Birth
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -192,9 +170,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-088 | Manual entry (invalid format, e.g. 99.99.9999) → validation error | ✅ Passed | Functional |
 | ES-089 | Manual entry (valid format) → accepted | ✅ Passed | Functional |
 
----
-
-### **7.Field: Email**
+## 7.Field: Email
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -206,9 +182,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-095 | Invalid – multiple @ symbols in address → error message, Pay button inactive | ✅ Passed | Functional |
 | ES-096 | Invalid – special characters in invalid places (e.g. test..mail@com) → error message, Pay button inactive | ✅ Passed | Functional |
 
----
-
-### **8.Field: Phone**
+## 8.Field: Phone
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -220,9 +194,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-102 | Long number (more than required digits) → error message, Pay button inactive | ✅ Passed | Functional |
 | ES-103 | Letters / special characters → error message, Pay button inactive | ✅ Passed | Functional |
 
----
-
-### **9.Discounts**
+## 9.Discounts
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -236,9 +208,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-111 | Cash payment (no discount) | ✅ Passed | Functional |
 | ES-112 | PayPal payment (no discount) | ✅ Passed | Functional |
 
----
-
-### **10.Coupons**
+## 10.Coupons
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -248,9 +218,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-116 | Coupon FLAT20 → $20 discount | ❌ Failed | Functional |
 | ES-117 | Invalid coupon | ✅ Passed | Functional |
 
----
-
-### **11.Discount + Coupon combinations**
+## 11.Discount + Coupon combinations
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -262,9 +230,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-123 | Student + 65+ (only bigger discount is applied) | ❌ Failed | Functional |
 | ES-124 | Student + FLAT20 | ✅ Passed | Functional |
 
----
-
-### **12.Dropdown: Delivery**
+## 12.Dropdown: Delivery
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -275,9 +241,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-129 | Correct delivery price displayed in Order Summary | ✅ Passed | Functional |
 | ES-130 | Changing delivery method → recalculation of price in Order Summary | ✅ Passed | Functional |
 
----
-
-### **13.Dropdown: Payment Method**
+## 13.Dropdown: Payment Method
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -287,9 +251,7 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-134 | Correct display of “Payment Method” in Order Summary | ✅ Passed | UI |
 | ES-135 | Discount not applied for Cash payment | ✅ Passed | Functional |
 
----
-
-##  Confirm Page
+## Confirm Page ##
 
 | ID | Summary | Status | Type |
 |----|----------|--------|------|
@@ -299,7 +261,6 @@ It validates both functional and UI behavior from the customer perspective.
 | ES-139 | Consistent currency and format in confirmation | ❌ Failed | UI |
 | ES-140 | “Back to Shop” button works | ✅ Passed | Functional |
 
----
 
 🧪 **Environment:** Windows 11, Chrome 140  
 📅 **Test Date:** 15–18 September 2025  
